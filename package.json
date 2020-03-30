@@ -2,12 +2,13 @@
   "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Saikat",
   "license": "MIT",
   "scripts": {
-    "serve-live": "live-server public/",
-    "build": "webpack",
-    "serve": "webpack-dev-server",
+    "serve": "live-server public/",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p  --env production",
+    "serve:dev": "webpack-dev-server",
     "test": "jest --config=jest.config.json"
   },
   "dependencies": {
