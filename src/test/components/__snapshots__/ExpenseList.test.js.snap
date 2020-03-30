@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list eith empty expenses 1`] = `
+<div>
+  <Connect(ExpenseListFilters) />
+  <h1>
+     No expense found! 
+  </h1>
+</div>
+`;
+
+exports[`should render expense list with expenses 1`] = `
+<div>
+  <Connect(ExpenseListFilters) />
+  <ExpenseListItem
+    amount="100"
+    createdDate={0}
+    description="Pen"
+    id="01"
+    key="01"
+    note="to take a note"
+  />
+  <ExpenseListItem
+    amount="1000"
+    createdDate={-345600000}
+    description="Notebook"
+    id="02"
+    key="02"
+    note="to write notes on "
+  />
+  <ExpenseListItem
+    amount="5666666"
+    createdDate={345600000}
+    description="House"
+    id="03"
+    key="03"
+    note="We live here"
+  />
+</div>
+`;
