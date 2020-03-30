@@ -5,11 +5,8 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import AppRouter from "./routers/AppRouter";
 import configureStore from "./stores/configureStore";
-import {addExpense , ediExpense , removeExpense} from "./actions/expenses";
-
 
 const store = configureStore();
-
 
 const jsx = (
     <Provider store={store}>
