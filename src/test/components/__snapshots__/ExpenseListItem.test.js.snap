@@ -17,22 +17,3 @@ exports[`should render ExpenseListItem correctly 1`] = `
   </p>
 </div>
 `;
-
-exports[`should render with expense  1`] = `
-<div>
-  <h2>
-    <Link
-      replace={false}
-      to="/edit/03"
-    >
-      House
-    </Link>
-  </h2>
-  <p>
-     Amount : 
-    5666666
-     - Created At : 
-    345600000
-  </p>
-</div>
-`;

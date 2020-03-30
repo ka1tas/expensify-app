@@ -6,7 +6,6 @@ import ExpenseListFilter from "./ExpenseListFilters";
 
 export const ExpenseList = (props)=>(
     <div>
-        <ExpenseListFilter />
 
         {(props.expenses.length===0)?
             <h1> No expense found! </h1> :
